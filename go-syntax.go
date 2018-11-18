@@ -5,7 +5,7 @@ Syntax tokens similar to C (but less parentheses and no semicolons) and the stru
 Compiles to native code (no JVM)
 No classes, but structs with methods
 Interfaces
-No implementation inheritance. There's type embedding, though.
+No implementation inheritance. Theres type embedding, though.
 Functions are first class citizens
 Functions can return multiple values
 Has closures
@@ -279,7 +279,7 @@ a = make([]byte, 5)	// capacity is optional
 x := [3]string{"Лайка", "Белка", "Стрелка"}
 s := x[:] // a slice referencing the storage of x
 Operations on Arrays and Slices
-len(a) gives you the length of an array/a slice. It's a built-in function, not a attribute/method on the array.
+len(a) gives you the length of an array/a slice. Its a built-in function, not a attribute/method on the array.
 
 // loop over an array/a slice
 for i, e := range a {
